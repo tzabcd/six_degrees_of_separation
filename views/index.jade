@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  form(action="./cat" method="POST" enctype='multipart/form-data')  
+    input(type="text" placeholder="请输入name" name='name')
+    input(type="text" placeholder="请输入age" name='age') 
+    input(type="text" placeholder="请输入f" name='friends')
+    input(type="file" name ='test')
+    button(type="submit") 提交
+  ul
+    each val,index in test
+      li #{index} : #{val} 
+    
