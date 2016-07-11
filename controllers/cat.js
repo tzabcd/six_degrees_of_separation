@@ -4,7 +4,7 @@ var upload = require('../middleware/upload');
 exports.get = function(req, res) {
     Cat.find({}, function(err, findData) {
         var data = {
-            "test": findData
+            'test': findData
         };
         res.render('index.jade', data);
     });
