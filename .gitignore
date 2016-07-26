@@ -1,0 +1,23 @@
+# Ignore Mac OS desktop services store
+.DS_Store
+# Ignore Windows desktop setting file
+desktop.ini
+
+＃ npm生成
+node_modules/
+
+
+# 编辑器相关文件
+.vscode/
+.idea
+typings
+
+
+# 编译生成
+*.min.*.js
+*.min.*.css
+*.log
+*.swp
+
+
+# 配置文件
